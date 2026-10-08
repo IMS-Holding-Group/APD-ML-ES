@@ -228,9 +228,9 @@ python app.py
 
 ```python
 class Config:
-    SECRET_KEY = 'apd-ml-es-dev-key-change-in-production'
+    SECRET_KEY = ''
     ADMIN_PATH = 'c9a4m7-p2k8-qv1r'
-    ADMIN_PASSWORD = 'Adm!APD2026#Local'
+    ADMIN_PASSWORD = ''
 ```
 
 ---
@@ -348,10 +348,10 @@ app.register_blueprint(admin_bp, url_prefix='/' + Config.ADMIN_PATH.strip('/'))
 
 ```python
 class Config:
-    SECRET_KEY = 'apd-ml-es-dev-key-change-in-production'
+    SECRET_KEY = ''
     # غيّر المسار والكلمة قبل النشر. لا تُضف رابط الإدارة في واجهة الموقع.
     ADMIN_PATH = 'c9a4m7-p2k8-qv1r'
-    ADMIN_PASSWORD = 'Adm!APD2026#Local'
+    ADMIN_PASSWORD = ''
 ```
 
 ---
